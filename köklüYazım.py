@@ -8,8 +8,8 @@ if ("√" in inputstring) == True:
             katmansayısı += 1
         else:
             whilestatemenet = False
-    katsayı = float(inputstring[:katmansayısı]) ** 2
-    kök = float(inputstring[katmansayısı + 1 :])
+    katsayı = int(inputstring[:katmansayısı]) ** 2
+    kök = int(inputstring[katmansayısı + 1 :])
     inputstring = katsayı * kök
     
 else:
