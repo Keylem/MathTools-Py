@@ -1,4 +1,3 @@
-
 def köklüYazımToplayıcı(inputstring):
     if inputstring.startswith("√"):
         inputstring = "1" + inputstring
@@ -71,7 +70,7 @@ def köklüYazımToplayıcı(inputstring):
         kökiçideğeri = f[2]
 
         if katsayı * kökdışıdeğeri != 0:
-            rawçarpım = rawçarpım * katsayı * kökdışıdeğeri
+            rawçarpım =  katsayı ** kökdışıdeğeri * rawçarpım
         if katsayı * kökiçideğeri != 0:
             rawkök = rawkök * katsayı * kökiçideğeri
     if rawkök == 1:
